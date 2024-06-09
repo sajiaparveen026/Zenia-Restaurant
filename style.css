@@ -21,6 +21,16 @@
   padding: 16px 48px;
 }
 
+.navbar img{
+  width: 180px;
+}
+
+.my-logo{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
 .navbar a {
   color: white;
   text-decoration: none;
@@ -393,7 +403,7 @@
 }
 
 .footer_section1 img {
-  width: 150px;
+  width: 200px;
 }
 
 .section1_buttonContainer {
@@ -481,12 +491,6 @@
 
 /* screen size is from 0-600 i.e, mobile/small screen*/
 @media only screen and (max-width: 600px) {
-    /* .navbar__menu_container .userIcon {
-      display: flex;
-    } */
-    /* .link {
-      display: none;
-    } */
   
     .navbar{
       background-color: rgb(218, 204, 187);
@@ -556,6 +560,9 @@
       font-size: 10px;
     }
 
+    .my-logo{
+      font-size: 20px;
+    }
   }
 
 @media only screen and (max-width: 900px) {
